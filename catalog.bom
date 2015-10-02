@@ -1,5 +1,5 @@
 brooklyn.catalog:
-  version: 0.0.1
+  version: 0.0.2
   iconUrl: http://blog.arungupta.me/wp-content/uploads/2015/07/kibana-logo.png
   items:
   - id: kibana-standalone
