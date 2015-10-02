@@ -36,7 +36,7 @@ brooklyn.catalog:
 
         # customize config file for kibana
         sed -i 's|http://localhost:9200|http://'"${ELASTICSEARCH_IP}"':'"${ELASTICSEARCH_PORT}"'|g' /opt/kibana/kibana-${KIBANA_VERSION}-linux-x64/config/kibana.yml
-        sleep 10
+        sed -i 's|# log_file: ./kibana.log|log_file: ./kibana.log|g' /opt/kibana/kibana-${KIBANA_VERSION}-linux-x64/config/kibana.yml
 
       launch.command: |
         nohup /opt/kibana/kibana-${KIBANA_VERSION}-linux-x64/bin/kibana  &
