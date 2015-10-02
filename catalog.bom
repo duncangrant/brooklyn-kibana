@@ -16,6 +16,7 @@ brooklyn.catalog:
         install.version: "4.1.1"
         kibana.elasticsearch.ip: 127.0.0.1  # must be supplied by caller!
         kibana.elasticsearch.port: 9200  # must be supplied by caller!
+        kibana.port: 5601
 
       shell.env:
         KIBANA_VERSION: $brooklyn:config("install.version")
