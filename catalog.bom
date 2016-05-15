@@ -9,9 +9,8 @@ brooklyn.catalog:
   items:
   - id: kibana-standalone
     name: "Kibana server"
-    description: "Single Kibana server"
     description: |
-       Kibana server. Callers should configure 'kibana.elasticsearch.ip'
+       Single Kibana server. Callers should configure 'kibana.elasticsearch.ip'
     item:
       type: org.apache.brooklyn.entity.software.base.VanillaSoftwareProcess
       provisioning.properties:
