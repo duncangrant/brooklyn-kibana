@@ -1,6 +1,7 @@
 brooklyn.catalog:
   version: 0.0.2
   iconUrl: http://blog.arungupta.me/wp-content/uploads/2015/07/kibana-logo.png
+  id: kibana-standalone
   publish:
     description: Pure Brooklyn YAML blueprint to deploy a Kibana instance from the sources
     license_code: Apache-2.0
